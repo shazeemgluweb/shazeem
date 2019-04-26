@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Play', 'sans-serif';
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+}
+
+
+.links {
+    list-style-type: none;
+    font-family: Play;
+    float: left;
+    font-size: 25px;
+}
+
+.intouch {
+    list-style-type: none;
+    float: left;
+    font-family: Play;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.subscribe {
+    float: left;
+    margin-top: 10px;
+    background-image: linear-gradient(-90deg, #C200A5, #5948ea);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+.footerlogo {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.facebook {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.twitter {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.pinterest {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 10px;
+}
+
+.instagram {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.copyright {
+	float: left;
+	font-size: 17px;
+	font-family: Play;
+    margin-top: 110px;
+    float: right;
+}

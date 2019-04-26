@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Play', 'sans-serif';
+}
+
+#shzmtop {
+    background-size: 100% 750px;
+    position: relative;
+    height: 750px;
+}
+
+#shzmheader {
+    width: 100%;
+    height: 120px;
+}
+
+#shzmlogo {
+    width: 40%;
+    height: 120px;
+    float: left;
+}
+
+#shzmlogo img {
+    height: 115px;
+    margin: 10px 0 0 30px;
+}
+
+#shzmnav {
+    width: 60%;
+    height: 120px;
+    float: left;
+}
+
+#shzmnav ul {
+    margin-top: 63px;
+    text-align: center;
+}
+
+#shzmnav li {
+    display: inline-block;
+}
+
+#shzmnav li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #5948EA 0%, #C200A5 100%);;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+#shzmnav li a {
+    background: #000;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:1.2s;
+    position: relative;
+    margin: 0 15px;
+}
+
+#shzmnav li a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#shzmnav li a:hover {
+    background: linear-gradient(to right, #5948EA 0%, #C200A5 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.8s;
+    transform: scale(1.2);
+}
+
+#shzmquote {
+    width: 65%;
+    margin: 150px 0 0 200px;
+}
+
+#shzmquote p{
+    background: linear-gradient(to right, #5948EA 0%, #C200A5 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+}
+
+  
